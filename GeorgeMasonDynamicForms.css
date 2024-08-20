@@ -1,0 +1,182 @@
+/* Styling text to mimic SiteMasonry styling */
+body,td,input,textarea {
+	font-family: "Open Sans", "Verdana", "Geneva", sans-serif;
+	font-size:16px;
+	color: #333333;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Figtree", "Open Sans", "Verdana", "Geneva", sans-serif;
+	color: #005239;
+}
+h1 {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: #333333;
+}
+h2 {
+	font-size: 1.65rem;
+	font-weight: 600;
+}
+h3 {
+	font-size: 1.45rem;
+	font-weight: 600;
+}
+h4 {
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+h5 {
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+h6 {
+	font-size: 1rem;
+}
+
+/* Adjusting nav button behavior after font size change */
+#formnavbuttons input {
+	width: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 5px;
+}
+
+/* formatting table */
+td {
+	padding: 15px;
+	vertical-align: text-top;
+}
+table table td {
+	padding: 5px;
+}
+
+/* Mobile settings */
+.widthPercent0 { 
+	width: auto;
+} 
+.widthPercent10 { 
+	width: auto;
+} 
+.widthPercent20 { 
+	width: auto;
+} 
+.widthPercent30 { 
+	width: auto;
+} 
+.widthPercent40 { 
+	width: auto;
+} 
+.widthPercent50 { 
+	width: auto;
+} 
+.widthPercent60 { 
+	width: auto;
+} 
+.widthPercent70 { 
+	width: auto;
+} 
+.widthPercent80 { 
+	width: auto;
+} 
+.widthPercent90 { 
+	width: auto;
+} 
+.widthPercent100 { 
+	width: auto;
+} 
+
+@media only screen and (min-width: 768px) {
+	.widthPercent0 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent10 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent20 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent30 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent40 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent50 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent60 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent70 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent80 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent90 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent100 { 
+		width: auto;
+	} 
+}
+
+@media only print {
+	#printHide { 
+		display: none !important; 
+	}
+	.widthPercent0 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent10 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent20 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent30 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent40 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent50 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent60 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent70 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent80 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent90 { 
+		width: auto;
+		max-width: 30%;
+	} 
+	.widthPercent100 { 
+		width: auto;
+	} 
+}
+
